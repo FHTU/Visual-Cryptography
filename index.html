@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html , body , div  {
+            margin: 0;
+            padding: 0;
+            width: 1500px;
+            height: 800px;
+            background-color: rgb(216, 212, 212);
+            overflow: auto;
+        }
+        .a{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            transition: transform 0.5s;
+            opacity: 0.5;
+        }
+        .b{
+            position: absolute;
+            top: 50px;
+            left: 500px;
+            opacity: 0.5;
+        }
+        .c{
+            position: absolute;
+            top: 50px;
+            left: 950px;
+        }
+        .r{
+            position: absolute;
+            top: 500px;
+            left: 50px;
+            
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+
+            padding: 10px;
+            cursor: pointer;
+            height : 50px;
+            width : 1300px;
+        }
+        .l{
+            position: absolute;
+            top: 560px;
+            left: 50px;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+
+
+            padding: 10px;
+            cursor: pointer;
+            height: 50px;
+            width: 1300px;
+        }
+    </style>
+
+</head>
+<body class="body">
+    <meta charset="utf-8">
+    <title>im.py</title>
+    <div class="div">
+        <img src="output/a_f.png"  class="a">
+        <img src="output/b_f.png"  class="b">
+        <img src="output/c_f.png"  class="c" >
+
+
+        <button onclick="right()" class="r">right</button>
+        <button onclick="left()" class="l">left</button>
+    </div>
+
+    <script> 
+        a = document.getElementsByClassName("a")[0];
+        b = document.getElementsByClassName("b")[0];
+        c = document.getElementsByClassName("c")[0];
+        window.addEventListener("keydown", function (e) {
+            
+            if (e.key === "ArrowRight") {
+                right();
+            } else if (e.key === "ArrowLeft") {
+                left();
+            }
+        });
+        function right(){
+            a.style.transform = "translateX(450px)";
+        }
+        function left(){
+            a.style.transform = "translateX(0px)";
+        }
+    </script>
+
+</body>
+</html>
