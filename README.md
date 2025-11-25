@@ -1,4 +1,4 @@
-# Image Randomizer Tool
+# Visual Cryptography
 
 ## Description
 This Python project allows you to **randomly combine and make a visual cryptography of two BMP images**.
