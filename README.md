@@ -28,7 +28,7 @@ pip install Pillow
 ## Usage 
 1. Run the program:
 ```bach
-python main.py
+python im.py
 ```
 
 2. Select three BMP images when prompted.
