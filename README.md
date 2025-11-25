@@ -3,7 +3,7 @@
 ## Description
 This Python project allows you to **randomly combine and make a visual cryptography of two BMP images**.
 The images are resized to 400x400 pixels and processed pixel by pixel with random operations to generate three new images.
-If you take two processed images and place (overlay) them on top of each other, then a third processed image appears.
+If you take two processed images and place (overlay) them on top of each other, then the third processed image appears.
 
 The final images are saved as PNG both in a default `output/` folder and in a directory of your choice.
 
