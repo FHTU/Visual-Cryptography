@@ -12,7 +12,7 @@ The final images are saved as PNG both in a default `output/` folder and in a di
 - Random pixel manipulation combining three images
 - Supports BMP images
 - Saves output as PNG
-- Opens an HTML file (`a.html`) after processing
+- Opens an HTML file (`index.html`) after processing
 
 ---
 
